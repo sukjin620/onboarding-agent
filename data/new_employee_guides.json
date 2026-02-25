@@ -1,0 +1,178 @@
+[
+  {
+    "guide_id": "GUIDE-0000",
+    "title": "How to Set Up Your Development Environment",
+    "category": "Engineering",
+    "audience": [
+      "Engineering"
+    ],
+    "content": "Welcome to the Engineering team! Follow these steps:\n\n1. Clone the bootstrap repo: `git clone git@github.com:acmecorp/dev-setup.git`\n2. Run `./setup.sh` \u2014 installs Homebrew, Docker, nvm, and project dependencies.\n3. Configure your SSH key pair and add the public key to GitHub and the bastion host.\n4. Request AWS IAM access via the #it-requests Slack channel.\n5. Join the #engineering and #dev-general Slack channels.\n6. Attend the weekly Engineering All-Hands every Tuesday at 10 AM PT.\n7. Your buddy will walk you through the codebase in your first pair-programming session.",
+    "tags": [
+      "setup",
+      "engineering",
+      "git",
+      "docker",
+      "aws"
+    ],
+    "version": "1.1",
+    "created_at": "2024-03-13T00:00:00Z",
+    "updated_at": "2025-02-11T00:00:00Z",
+    "author": "People Ops",
+    "view_count": 490,
+    "helpful_votes": 120
+  },
+  {
+    "guide_id": "GUIDE-0001",
+    "title": "Navigating Your Benefits: Health, Dental & 401k",
+    "category": "HR",
+    "audience": [
+      "All"
+    ],
+    "content": "You have 30 days from your start date to enroll in benefits.\n\n**Health Insurance**: Log in to Gusto > Benefits > Medical. We offer three tiers (HMO, PPO, HDHP).\n**Dental & Vision**: Bundled with medical; same enrollment window.\n**401(k)**: We match up to 4% of salary. Enroll via Guideline \u2014 link in your welcome email.\n**PTO**: Unlimited PTO policy. Log time off in Lattice and notify your manager in Slack.\n**Parental Leave**: 16 weeks fully paid for primary caregiver; 8 weeks for secondary.\n\nQuestions? Ping #people-ops or email benefits@acmecorp.com.",
+    "tags": [
+      "benefits",
+      "health",
+      "401k",
+      "pto",
+      "hr"
+    ],
+    "version": "1.4",
+    "created_at": "2024-03-11T00:00:00Z",
+    "updated_at": "2025-06-13T00:00:00Z",
+    "author": "Sales Ops",
+    "view_count": 266,
+    "helpful_votes": 49
+  },
+  {
+    "guide_id": "GUIDE-0002",
+    "title": "Company Communication Tools Guide",
+    "category": "Operations",
+    "audience": [
+      "All"
+    ],
+    "content": "We use the following tools \u2014 get familiar with each:\n\n- **Slack**: Primary async chat. Join your department channel and #general, #announcements.\n- **Notion**: Company wiki and project docs. Your manager will share the team Notion.\n- **Google Workspace**: Email, Calendar, Drive, Meet. SSO via Okta.\n- **Jira**: Engineering tickets and sprints. PM creates your first sprint tickets.\n- **Lattice**: Performance reviews, 1:1 agendas, and goal tracking.\n- **Zoom**: Video calls with external partners. License provisioned in your first week.\n\nSlack etiquette: use threads for replies; set a status when in Do Not Disturb mode.",
+    "tags": [
+      "slack",
+      "notion",
+      "jira",
+      "communication",
+      "tools"
+    ],
+    "version": "1.3",
+    "created_at": "2024-01-25T00:00:00Z",
+    "updated_at": "2025-04-14T00:00:00Z",
+    "author": "HR Team",
+    "view_count": 414,
+    "helpful_votes": 89
+  },
+  {
+    "guide_id": "GUIDE-0003",
+    "title": "Security & Compliance Essentials",
+    "category": "Security",
+    "audience": [
+      "All"
+    ],
+    "content": "Security is everyone's responsibility. Required actions in Week 1:\n\n1. Enable MFA on all company accounts (Google, Slack, GitHub, AWS).\n2. Install CrowdStrike Falcon on your laptop \u2014 IT will push the agent automatically.\n3. Complete the **Security Awareness** course in Workday LMS (\u2248 45 min).\n4. Never share credentials. Use 1Password (team vault) for all passwords.\n5. Report phishing attempts to security@acmecorp.com immediately.\n6. Do not use personal cloud storage (Dropbox, personal Drive) for work files.\n\nPolicy docs are in Notion > Security > Policies.",
+    "tags": [
+      "security",
+      "mfa",
+      "compliance",
+      "1password",
+      "mandatory"
+    ],
+    "version": "1.3",
+    "created_at": "2024-02-29T00:00:00Z",
+    "updated_at": "2025-07-12T00:00:00Z",
+    "author": "IT Team",
+    "view_count": 51,
+    "helpful_votes": 141
+  },
+  {
+    "guide_id": "GUIDE-0004",
+    "title": "Your First 30-60-90 Day Plan",
+    "category": "HR",
+    "audience": [
+      "All"
+    ],
+    "content": "This plan helps you ramp up effectively.\n\n**Days 1\u201330 (Learn)**:\n- Complete all onboarding tasks and compliance training.\n- Schedule 1:1s with every teammate and key cross-functional partner.\n- Shadow existing processes; ask lots of questions.\n\n**Days 31\u201360 (Contribute)**:\n- Take ownership of a small project or ticket.\n- Draft your OKRs with your manager in Lattice.\n- Identify one process improvement opportunity.\n\n**Days 61\u201390 (Lead)**:\n- Deliver on your first project.\n- Complete your 90-day review with your manager.\n- Propose one new idea in your team's retrospective.\n",
+    "tags": [
+      "30-60-90",
+      "goals",
+      "ramp-up",
+      "performance"
+    ],
+    "version": "1.3",
+    "created_at": "2024-02-11T00:00:00Z",
+    "updated_at": "2025-03-12T00:00:00Z",
+    "author": "IT Team",
+    "view_count": 142,
+    "helpful_votes": 200
+  },
+  {
+    "guide_id": "GUIDE-0005",
+    "title": "IT Troubleshooting: Common First-Week Issues",
+    "category": "IT",
+    "audience": [
+      "All"
+    ],
+    "content": "Common issues and how to fix them:\n\n**Can't log in to Okta?** \u2192 Reset password at okta.acmecorp.com/forgot or ping #it-helpdesk.\n**Laptop not imaging?** \u2192 Boot to recovery mode and re-run MDM enrollment.\n**Slack invite expired?** \u2192 Ask your manager to resend from admin.slack.com.\n**VPN not connecting?** \u2192 Ensure Cisco AnyConnect is installed; use `vpn.acmecorp.com`.\n**Missing software?** \u2192 Submit a request in Jira Service Desk > IT Requests.\n\nIT Help Desk: #it-helpdesk (Slack) | it@acmecorp.com | ext. 1000 | SLA: 4 business hours.",
+    "tags": [
+      "it",
+      "troubleshooting",
+      "okta",
+      "vpn",
+      "helpdesk"
+    ],
+    "version": "1.0",
+    "created_at": "2024-02-17T00:00:00Z",
+    "updated_at": "2025-02-07T00:00:00Z",
+    "author": "HR Team",
+    "view_count": 176,
+    "helpful_votes": 58
+  },
+  {
+    "guide_id": "GUIDE-0006",
+    "title": "Sales Playbook for New Account Executives",
+    "category": "Sales",
+    "audience": [
+      "Sales"
+    ],
+    "content": "Welcome to the Sales team! Here is what you need in Week 1:\n\n1. **CRM Access**: Log in to Salesforce (SFDC) using your Okta credentials.\n2. **Territory Assignment**: Your manager will assign your named accounts in SFDC.\n3. **Product Certification**: Complete the 4-hour Sales Certification in Highspot.\n4. **Shadow Calls**: Join 3 discovery calls with a senior AE in your first two weeks.\n5. **Quota**: Your ramping quota for Month 1 is 25% of OTE target.\n6. **Commission Plan**: Reviewed in Finance's onboarding session (Day 3).\n\nKey contacts: Sales Ops (#sales-ops), RevOps (#revenue-ops), SE pool (#solutions-engineering).",
+    "tags": [
+      "sales",
+      "salesforce",
+      "quota",
+      "crm",
+      "playbook"
+    ],
+    "version": "1.1",
+    "created_at": "2024-06-19T00:00:00Z",
+    "updated_at": "2025-04-06T00:00:00Z",
+    "author": "Sales Ops",
+    "view_count": 434,
+    "helpful_votes": 159
+  },
+  {
+    "guide_id": "GUIDE-0007",
+    "title": "Design System & Brand Guidelines",
+    "category": "Design",
+    "audience": [
+      "Design",
+      "Marketing"
+    ],
+    "content": "The Acme Design System lives in Figma (team: Acme Design).\n\n**Brand Colors**: Primary #1E3A5F (Navy), Accent #F4A916 (Gold), Neutral #F5F5F5.\n**Typography**: Inter for UI; Playfair Display for marketing headlines.\n**Logo Usage**: Never stretch or recolor the logo. Assets in Figma > Brand Assets.\n**Component Library**: Use existing components before creating new ones. PR to the Figma library requires design lead approval.\n**Review Process**: All external-facing designs must be reviewed by the Brand team before handoff.\n\nDesign Slack channels: #design-critique, #brand-assets, #design-system.",
+    "tags": [
+      "design",
+      "figma",
+      "brand",
+      "guidelines",
+      "ui"
+    ],
+    "version": "1.4",
+    "created_at": "2024-01-16T00:00:00Z",
+    "updated_at": "2025-04-12T00:00:00Z",
+    "author": "HR Team",
+    "view_count": 113,
+    "helpful_votes": 5
+  }
+]
